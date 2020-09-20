@@ -1,0 +1,151 @@
+/* -----------------------Variables-------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --blue-color: #011133;
+  --white-color: white;
+  --black-color: black;
+  /* TIPOGRAFIA */
+  --normal: 12px;
+  /* ESPACIADO */
+  --space: 10px;
+  /* BOX SHADOWS */
+  --box: 0 0 4px #676565;
+}
+
+/* -----------------------Variables-------------------- */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: var(--normal);
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: var(--blue-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #3c8ebb;
+}
+
+/* ------------------------ MAIN SECTION ------------ */
+
+.brand_image img {
+  margin-left: var(--space);
+  width: 100px;
+}
+.main_section {
+  padding: 20%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/fondo.png");
+  height: 95px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product {
+  padding: var(--space);
+  margin-top: -360px;
+}
+
+.product .content {
+  background-color: var(--white-color);
+  padding: var(--space);
+  box-shadow: var(--box);
+}
+
+.img_content {
+  text-align: center;
+}
+
+.main_button {
+  background-color: var(--blue-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.main_button:hover {
+  background-color: #002c8a;
+}
+
+/* Beneficios */
+.beneficios{
+  padding: 10%;
+  display: flex;
+}
+
+.beneficio{
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: justify;
+}
+
+/* Mentions */
+.mentions{
+  display: flex;
+  padding: 5%;
+}
+.mention img{
+  width: 100%;
+}
+h2.mention_title{
+  text-align: center;
+}
+.mention{
+  padding: var(--space);
+}
+.content_mention{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text{
+  padding: var(--space);
+}
+
+/* ------------------------------------------- Footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
