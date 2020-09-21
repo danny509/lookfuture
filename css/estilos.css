@@ -146,6 +146,6 @@ footer{
   display: flex;
   justify-content: space-between;
   font-size: var(--normal);
-  background-color: var(--black-color);
+  background-color: var(--blue-color);
   padding: var(--space);
   color: var(--white-color);
